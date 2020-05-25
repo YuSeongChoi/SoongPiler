@@ -49,7 +49,7 @@
      </form>
      <?php
      javac();
-    //  fileDelete();
+     fileDelete();
       ?>
       <br>
       <a href="../index.html">돌아가기</a>

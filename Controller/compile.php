@@ -56,6 +56,11 @@ $default = "public class Solution
     <예시 코드>
     <br>
     <img src="../model/example.PNG">
+    11111
+    <a href="python.php">파이썬</a>
+    <a href="exec.php">결과</a>
+    <a href="tensorboard.php">텐서보드 서버 실행</a>
+    <a href="javascript:void(window.open('http://localhost:6006', '_blank'))">TensorBoard</a>
     <?php
     javac();
      ?>
