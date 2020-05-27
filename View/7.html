@@ -1,20 +1,77 @@
-<!doctype html>
-<html>
+<html lang="en">
 <head>
-  <title>SoongPiler-JAVA</title>
+  <title> SoongPiler-JAVA</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-    <script src=
-    "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-    </script>
-  <script src="colors.js"> </script>
 
+  <meta name="author" content="YUSEONG">
+  <meta name="description" content="SoongPiler Project">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+  <!-- http://ogp.me/ -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SoongPiler">
+  <meta property="og:title" content="Build software better, together">
+  <meta property="og:description" content="SoongSil Univ Web Compiler Project">
+  <meta property="og:image" content="img/logo__github.png">
+  <meta property="og:url" content="https://ssu.ac.kr">
+
+  <!-- https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started.html -->
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:site" content="SoongPiler">
+  <meta property="twitter:title" content="Build software better, together">
+  <meta property="twitter:description" content="SoongSil Univ Web Compiler Project">
+  <meta property="twitter:image" content="img/logo__github.png">
+  <meta property="twitter:url" content="https://ssu.ac.kr">
+
+  <!-- <link rel="shortcut icon" href="image/x-icon" href="favicon.ico"> --> 
+  <link rel="icon" href="../favicon.png">
+  <link rel="apple-touch-icon" href="../favicon.png">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="css/reset.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body>
-  <h1><a href="index.html">SoongPiler-수업을 마치며</a></h1>
-  <!-- <input id = 'night_day' type="button" value="night" onclick="
-  nightDayHandler(this);"> -->
+  <div class="body__container">  
+
+    <!-- HEADER -->
+    <header class="section">
+        <div class="inner clearfix">
+            <div class="menu-group float--left">
+                <div class="logo">
+                    <a href="../index.html">SoongPiler</a>
+                </div>
+                <ul class="main-menu">
+                    <li><a href="1.html">학습하기</a></li>
+                    <li><a href="../Controller/compile.php">JAVA 코딩</a></li>
+                    <li><a href="../Controller/compile.php">PYTHON 코딩</a></li>
+                    <li><a href="#">질문하기</a></li>
+                </ul>
+            </div>
+
+            <div class="sign-group float--right">
+                <div class="btn-group">
+                    <a href="#" class="btn sign-in">Sign in</a>
+                    <a href="#" class="btn btn--primary sign-up">Sign up</a>
+                </div>
+                <form id="search-form" method="POST" action="">
+                    <input type="text" id="search" class="input--text" placeholder="Search SoongPiler">
+                    <input type="submit" value="Submit">
+                </form> 
+                <ul class="sub-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>                   
+            </div>
+
+        </div>
+    </header>
+  </div>
+
   <div id="grid">
     <ol>
       <li><a href="1.html"> JAVA란</a> </li>
@@ -25,16 +82,17 @@
       <li><a href="6.html"> 입력과 출력</a> </li>
       <li><a href="7.html"> 수업을 마치며</a> </li>
     </ol>
+
       <div id="article">
+        <br><br>
         <h2> SoongPiler-수업을 마치며</h2>
         축하합니다! 이제 여러분은 자바를 이용해서 나의 문제를 해결할 수 있는 자바의 준수한 사용자가 되었습니다.<br>
         더 공부하려고 하지 마시고, 지금까지 배운 것과 나의 삶의 문제를 연결시켜보세요.<br>
-         이 작업을 충분히 반복하다보면 더 많은 것을 공부할 준비가 '고통스럽지 않게' 끝나있을 것입니다. 그 때 후속 수업을 찾아주세요. 고생하셨습니다. 대단하십니다!<br>
-        <h2>수업을 마치면서...<br></h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/qTcn-a3vo6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br>
-        <img src="html_coding_image.jpg" width="50%" style="margin-top:20px;">
-        <p style="margin-top: 0px;"><a href="../controller/compile.php">직접 도전해 보세요!</a>
+         이 작업을 충분히 반복하다보면 더 많은 것을 공부할 준비가 '고통스럽지 않게' 끝나있을 것입니다. 
+         <br>그 때 후속 수업을 찾아주세요. 고생하셨습니다.
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qTcn-a3vo6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </p>
       </div>
   </div>
