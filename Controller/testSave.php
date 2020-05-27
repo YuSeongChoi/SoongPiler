@@ -1,6 +1,6 @@
 <?php
-$route = "C:\Bitnami\wampstack-7.3.17-0\apache2\htdocs\Controller/photos/";
-mkdir("C:\Bitnami\wampstack-7.3.17-0\apache2\htdocs\Controller/photos/");
+$route = "C:\Bitnami\wampstack-7.3.18-0\apache2\htdocs\Controller/photos/";
+mkdir("C:\Bitnami\wampstack-7.3.18-0\apache2\htdocs\Controller/photos/");
 
 $data = $_POST['photo'];
 list($type, $data) = explode(';', $data);

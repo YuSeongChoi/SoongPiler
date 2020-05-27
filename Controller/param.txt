@@ -1,5 +1,2 @@
 Conv2D 32 3
-max 2
-Conv2D 64 3
-max 2
-Conv2D 64 3
+MaxPooling2D 2   
