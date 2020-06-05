@@ -3,13 +3,15 @@
 
  function javac(){
    if(isFileExist() == 1) {
-     $exec = "javac Solution.java";
+     $exec = "javac -encoding utf-8 Solution.java";
      shell_exec($exec);
      // echo $exec;
 
      // java를 통해 생성된 class 파일 실행
-     $output = shell_exec("java Solution");
-     echo $output;
+     $output = shell_exec("java Solution 10");
+     $output = iconv("EUC-KR","UTF-8",$output);
+    echo '<pre>'.$output.'</pre>';
+
    }
  }
 
@@ -28,7 +30,7 @@
  }
   ?>
    <head>
-     <meta charset="utf-8">
+     <meta Content-Type:text/html; charset="utf-8">
      <title>Soongpiler</title>
      <h1>숭파일러</h1>
    </head>
